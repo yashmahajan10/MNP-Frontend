@@ -1,0 +1,295 @@
+.login-container{
+  max-width: 400px; 
+  margin: 60px auto 0;
+}
+body{
+	overflow-x:  hidden;
+}
+.error{
+  color: tomato; 
+  font-size: 12px; 
+  padding-top: 4px
+}
+
+.black-background{
+	background-color: black;
+}
+.black-text{
+	color: black !important;
+}
+.white-text{
+	color: white !important;
+}
+.blue-text{
+	color: #3399FF !important;
+}
+.green-text{
+	color: #009933 !important;
+}
+.yellow-text{
+	color: #ffc266 !important;
+}
+.centered-col ,.register-box{
+	float:none !important;
+	margin: 0 auto !important;
+}
+.heading{
+	font-size: 50px;
+}
+.top-space{
+	margin-top: 50px;
+}
+.top-margin{
+	margin-top: -15px !important;
+}
+.italics{
+	font-size: 20px;
+}
+.blue-button{
+	background-color: #3399FF;
+	font-size: 20px;
+	color: white;
+	border-radius: 22.5px;
+	border-color: #3399FF;
+}
+
+.success-button{
+	background-color: white;
+	font-size: 20px;
+	color: #009933;
+	border-radius: 22.5px;
+	border: 2px solid #009933;	
+}
+
+.process-button{
+	background-color: white;
+	font-size: 20px;
+	color: #ffc266;
+	border-radius: 22.5px;
+	border: 2px solid #ffc266;	
+}
+
+.home-buttons{
+	padding-left: 40px;
+	padding-right: 40px;
+
+}
+.space-left{
+	margin-left: 15px;
+}
+.space-right{
+	margin-right: 15px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #6c757d;
+    color: #7c757d;
+    font-size: 20px;
+
+}
+input[type=text]:disabled {
+    background: transparent;
+    background-image: url('lock.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 50px !important;	
+    padding-right: 50px !important;
+    
+}
+.mobile{
+	background-image: url('smartphone.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 50px !important;
+  	padding-right: 50px !important;
+      
+}
+.otp{
+	background-image: url('lock.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 50px !important;	
+    padding-right: 50px !important;
+      
+}
+.login-button{
+	margin-top: 10%;
+	width: 100%;
+}
+.mnp-nav{
+	    box-shadow: 0 4px 4px -2px rgba(0,0,0,.2);
+}
+.portal-heading{
+	font-size: 40px;
+}
+.portal-font{
+	font-size: 30px;
+}
+.logout{
+	margin-right: 10px;
+	
+}
+.logoutimg{
+	padding-right: 5%;
+	margin-top: -5px;
+}
+.full-width{
+	width: 100%;
+}
+.stage{
+	float: right;
+	margin-top: 1%;
+	margin-right: 20px;
+}
+.timeline{
+	margin-top: 3%;
+}
+
+.timeline ul li::after {
+  content: '';
+  font-size: 25px;
+  color: white;
+  padding-left: 12px;
+  padding-top: 1px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: inherit;
+  border-radius: 25px;
+}
+
+/*.timeline ul li::after {
+  content: '';
+  color: white;
+  padding-left: 9px;
+  padding-top: 2px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: inherit;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 2px #3399FF;
+  border-radius: 25px;
+}
+*/
+.active-stage::after{
+	border-radius: 50%;
+	border: 3px solid #fff;
+	box-shadow: 0 0 0 2px #3399FF;
+	border-radius: 25px;
+	background-color: #3399FF !important;
+
+}
+.next-stage{
+	background: #3399FF !important;
+}
+
+.timeline ul li {
+
+  list-style-type: none;
+  position: relative;
+  width: 3px;
+  margin-left: 3%;
+  padding-top: 175px;
+  background: #d9d9d9;
+/*  height: 200px;*/
+}
+
+/*.timeline ul li {
+
+  list-style-type: none;
+  position: relative;
+  width: 3px;
+  margin-left: 3%;
+  
+  padding-top: 200px;
+  background: #3399FF;
+}*/
+
+.timeline ul li:last-child {
+  list-style-type: none;
+  position: relative;
+  width: 3px;
+  margin-left: 3%;
+  padding-top: 0px;
+  background: #d9d9d9;
+  height: 0px;
+  margin-top: 210px;
+
+}
+.content{
+	position: relative;
+	padding: 40px 20px;
+	border-radius: 6px;
+	width: 80vh;
+	margin-top: -220px;
+	top:-10;
+	margin-left: 50px;
+}
+
+.content-last{
+	position: relative;
+	padding: 0px 20px;
+	border-radius: 6px;
+	width: 80vh;
+	margin-top: -220px;
+	padding-top: -200px;
+	margin-left: 50px;	
+}
+
+.generate{
+	padding-left: 4%;
+	padding-right: 4%;
+	width: 50%;	
+}
+.button-row{
+	width: 100%;
+}
+button:disabled, button[disabled]{
+	background-color: white;
+	border: 2px solid #6c757d;
+	color: #6c757d !important;
+}
+.timeliner{
+	float: left;
+	width: 50%;
+}
+.status{
+	float: right;
+	width: 50%;
+	padding-right: 15%;
+	white-space: initial;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	margin-top: 4%; 
+}
+.below-nav{
+	margin-top: 4%;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+
+
+
+//Success class
+.success{
+	float: right;
+	width: 40%;
+
+}
