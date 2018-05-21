@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<!-- define angular app -->
+<html>
+
+<head>  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- SCROLLS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- SPELLS -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<!-- define angular controller -->
+<body>
+  <nav class="navbar mnp-nav navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand portal-heading text-muted" href="#"><b>MNP PORTAL</b> for Subscriber</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" class="text-muted portal-font logout"><img src="power-button-off.png" class="logoutimg" />Logout</a></li>
+      </ul>   
+    </div>
+  </nav> 
+<div class="full-width">
+      <p class="stage portal-font text-muted">Not Started</p>
+    </div>
+  <div class="container-fluid below-nav">
+    
+  <br>
+  <div class="timeliner">
+    <section class="timeline">
+    <ul>
+      <li class="">
+        <div class="content">
+            <!-- <div class="row">
+                <p class='portal-font text-muted'>Step 1</p>
+            </div>
+            <div class="row button-row" >
+                <span class='portal-font' style="float: left; margin-right: 20vh">UPC</span>
+                <button type="button" class="blue-button text-center  generate btn btn-default">Generate</button>  
+
+            </div> -->
+            <div class="row">
+              <div class="col-md-6">
+                <p class='portal-font text-muted'>Step 1</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5">
+                <span class='portal-font'>UPC</span>
+              </div>
+              <div class="col-md-7"> 
+                <button type="button" class="blue-button text-center generate btn btn-default">Generate</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+              <i class="text-muted">Mon, May 17th, 2018 09:00am</i>
+            </div>
+          </div>
+          </div>
+        
+      </li>
+       <li class="">
+        <div class="content">
+            <div class="row">
+              <div class="col-md-6">
+                <p class='portal-font text-muted'>Step 2</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5">
+                <span class='portal-font'>KYC Verification</span>
+              </div>
+              <div class="col-md-7"> 
+                <button type="button" class="blue-button text-center generate btn btn-default" disabled>Pending</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+              <i class="text-muted">Mon, May 17th, 2018 09:00am</i>
+            </div>
+          </div>
+        </div>  
+      </li>
+       <li>
+        <div class="content">
+            <div class="row">
+              <div class="col-md-6">
+                <p class='portal-font text-muted'>Step 3</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5">
+                <span class='portal-font'>Status at Airtel</span>
+              </div>
+              <div class="col-md-7"> 
+                <button type="button" class="blue-button text-center generate btn btn-default" disabled="">Pending</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+              <i class="text-muted">Mon, May 17th, 2018 09:00am</i>
+            </div>
+          </div>
+            </div>
+      </li>
+       <li>
+        <div class="content-last">
+            <div class="row">
+              <div class="col-md-6">
+                <p class='portal-font text-muted'>Step 4</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5">
+                <span class='portal-font'>Status at Jio</span>
+              </div>
+              <div class="col-md-7"> 
+                <button type="button" class="blue-button text-center generate btn btn-default" disabled="">Pending</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+              <i class="text-muted">Mon, May 17th, 2018 09:00am</i>
+            </div>
+          </div>
+        </div>
+      </li>
+       
+      </ul>
+    </section>
+  </div>
+  <div class="status text-muted">
+      <div class="row">
+        <p class="heading">Current Status</p>
+      </div>
+      <div class="row">
+        <p class="portal-font"><b>UPC Successfully generated valid until May 24th, 2018 09:00 am.</b></p>
+      </div>
+      <br>
+      <div class="row">
+        <p class="heading">Next Action</p>
+      </div>
+      <div class="row" >
+        <p class="portal-font"><b>Visit the nearest customer care center of the new(target) operator for KYC and further processing.</b></p>
+      </div>
+      <br>
+      
+  </div>
+
+  </div>

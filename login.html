@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<!-- define angular app -->
+<html>
+
+<head>  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- SCROLLS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- SPELLS -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<!-- define angular controller -->
+<body>
+  <div class="container-fluid  top-space">
+    <div class="row">
+      <div class="col-md-3 space-left">
+        <img src="left-arrow.png" align="left" width="35" />
+      </div>  
+      <div class="col-md-4 centered-col">
+        <p class="heading text-center text-muted"><b>MNP Portal</b></p>
+      </div>
+      <div class="col-md-3 space-right">
+        <img src="multiply.png" align="right" width="30" />
+      </div>  
+    </div>
+    <div class="row">
+      <div class="col-md-4 centered-col top-margin" style="margin-top: -30px !important;">
+        <p class=" text-center text-muted" style="font-size: 40px;">for Subscriber</p>
+      </div>
+    </div>
+    <br>
+    
+    <div class="register-box container">
+      <div class="row">
+        <div class="col-md-4 centered-col">
+         <h3 class="text-muted" style="font-weight: 400 !important;">Register</h3> 
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4 centered-col">
+          <form action="" method="">
+            <input type="text" class="mobile text-center" name="mobile" placeholder="Mobile No"  />
+            <br>
+            <br>
+            <input type="text" class="otp text-center" placeholder="OTP" name="otp" disabled />
+            <br>
+            <br>
+            <button type="button" class="blue-button text-center login-button white-text btn btn-default" disabled>Send OTP<img src="right-arrow.png" style="position: relative; right: -30%;"></button>  
+          </form>
+            <br>
+          <div class="row">
+              <a href="/login" class="blue-text space-left" style="text-decoration:none;  width:45%; float: left; ">Login</a>
+              <a href="/forgot" class="blue-text " style="text-decoration: none;float: right;width: 50%; text-align: right;">Forgot Password?</a>
+              <a href="/terms" class="text-muted " style="text-decoration: underline; text-align: center;width: 100%; margin-top: 30%;">Terms & Conditions</a>
+              
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+
+  </div>
